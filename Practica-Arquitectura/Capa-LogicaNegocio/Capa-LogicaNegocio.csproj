@@ -2,13 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>Capa_Persistencia</RootNamespace>
+    <RootNamespace>Capa_LogicaNegocio</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Capa-Logica\Capa-Entidades.csproj" />
+    <ProjectReference Include="..\Capa-Persistencia\Capa-Persistencia.csproj" />
   </ItemGroup>
 
 </Project>

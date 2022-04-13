@@ -9,6 +9,7 @@ namespace Capa_Logica
     public class Enfermedad
     {
         //tipo de enfermedad (CORONARIA, MENTAL, ETC), nombre y un costo asociado.
+        public int Codigo { get; set; }
         public Enfermedad TipoEnfermedad { get; set; }
         public string Nombre { get; set; }
         public int Costo { get; set; }
